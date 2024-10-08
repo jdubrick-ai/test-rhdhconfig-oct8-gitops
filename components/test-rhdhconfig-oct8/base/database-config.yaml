@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-rhdhconfig-oct8-database-config
+data:
+  VECTORDB_HOST: "test-rhdhconfig-oct8-database"
+  VECTORDB_PORT: ""
